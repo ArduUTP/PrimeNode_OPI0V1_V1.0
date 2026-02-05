@@ -82,27 +82,27 @@ Interfejs PrimeNode Dashboard został zaprojektowany z myślą o czytelności i 
 
 | **Dashboard (Live Monitor)** | **Nodes List** |
 | :---: | :---: |
-| ![Dashboard](images/dashboard.jpg) | ![Nodes](images/nodes.jpg) |
+| ![Dashboard](images/dashboard.jpeg) | ![Nodes](images/nodes.jpeg) |
 
 | **Nodes Map (Leaflet)** | **DTMF Editor (Drag & Drop)** |
 | :---: | :---: |
-| ![Nodes Map](images/nodes_mapa.jpg) | ![DTMF](images/dtmf.jpg) |
+| ![Nodes Map](images/nodes_mapa.jpeg) | ![DTMF](images/dtmf.jpeg) |
 
 | **Radio Config (SA818)** | **Audio Mixer** |
 | :---: | :---: |
-| ![Radio](images/radio.jpg) | ![Audio](images/audio.jpg) |
+| ![Radio](images/radio.jpeg) | ![Audio](images/audio.jpeg) |
 
 | **SvxLink Config & Roaming** | **WiFi Manager** |
 | :---: | :---: |
-| ![Config](images/config.jpg) | ![WiFi](images/wifi.jpg) |
+| ![Config](images/config.jpeg) | ![WiFi](images/wifi.jpeg) |
 
 | **Power Control** | **Live Logs** |
 | :---: | :---: |
-| ![Zasilanie](images/zasilanie.jpg) | ![Log](images/log.jpg) |
+| ![Zasilanie](images/zasilanie.jpeg) | ![Log](images/log.jpeg) |
 
 | **Web Terminal (SSH)** | **Help Center** |
 | :---: | :---: |
-| ![SSH](images/ssh.jpg) | ![Help](images/help.jpg) |
+| ![SSH](images/ssh.jpeg) | ![Help](images/help.jpeg) |
 
 ---
 
