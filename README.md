@@ -74,6 +74,10 @@ System PrimeNode oferuje zestaw zaawansowanych funkcji ułatwiających codzienn�
     * Logi systemowe zapisywane w pamięci RAM (`/dev/shm`) – oszczędza kartę SD.
     * Auto-Proxy dla EchoLink (rozwiązuje problemy z LTE/GSM).
 
+9.  **📢 System Powiadomień (Info Bar):**
+    * Inteligentny pasek komunikatów na górze Dashboardu.
+    * System automatycznie pobiera ważne informacje od twórcy projektu (np. o dostępnych aktualizacjach, awariach sieci czy nowych funkcjach), dzięki czemu zawsze jesteś na bieżąco.
+
 ---
 
 ## 📸 Galeria / Screenshots
