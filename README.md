@@ -82,7 +82,7 @@ Interfejs PrimeNode Dashboard został zaprojektowany z myślą o czytelności i 
 
 | **Nodes Map (Leaflet)** | **DTMF Editor (Drag & Drop)** |
 | :---: | :---: |
-| ![Nodes Map](images/nodes_mapa.jpeg) | ![DTMF](images/dtmf.jpeg) |
+| ![Nodes Map](images/node_mapa.jpeg) | ![DTMF](images/dtmf.jpeg) |
 
 | **Radio Config (SA818)** | **Audio Mixer** |
 | :---: | :---: |
