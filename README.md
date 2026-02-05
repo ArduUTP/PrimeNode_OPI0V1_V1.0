@@ -37,36 +37,40 @@ Gotowy do wgrania obraz systemu (`.img`) znajduje się w sekcji **Releases** po 
 
 ---
 
-## ✨ Unikalne Funkcje / Key Features
+## ✨ Główne Funkcje / Key Features
 
-System PrimeNode wyróżnia się na tle innych rozwiązań dzięki autorskim funkcjom:
+System PrimeNode oferuje zestaw zaawansowanych funkcji ułatwiających codzienną pracę z hotspotem:
 
 1.  **🌐 Network Roaming (Baza Sieci):**
     * Wbudowany menedżer sieci w zakładce *Konfiguracja*.
     * Możliwość zdefiniowania wielu serwerów (Reflektorów) z różnymi loginami/hasłami.
     * Szybkie przełączanie sieci kodami DTMF z radia: `555` + `ID` + `#`.
 
-2.  **📱 Inteligentny DTMF (Drag & Drop):**
+2.  **🔄 System Aktualizacji (OTA Update):**
+    * Wbudowany mechanizm aktualizacji Dashboardu i skryptów systemowych.
+    * Pobieranie poprawek i nowości jednym kliknięciem w zakładce *Zasilanie* (bez konieczności ponownego wgrywania obrazu na kartę).
+
+3.  **📱 Inteligentny DTMF (Drag & Drop):**
     * Nowoczesny edytor przycisków z obsługą **przeciągania kafelków** (również na telefonie).
     * Tworzenie własnych zakładek i makr bez edycji plików tekstowych.
 
-3.  **💻 Web Terminal (SSH):**
+4.  **💻 Web Terminal (SSH):**
     * Pełny dostęp do konsoli systemowej bezpośrednio z przeglądarki.
     * Nie potrzebujesz Putty/Terminala – zarządzaj systemem z dowolnego urządzenia.
 
-4.  **📡 Live Monitor & Smart Info:**
+5.  **📡 Live Monitor & Smart Info:**
     * Podgląd aktywności w czasie rzeczywistym.
     * Automatyczne rozpoznawanie stacji (Imię i Miasto operatora) pobierane z bazy węzłów.
 
-5.  **🎚️ Audio Mixer GUI:**
+6.  **🎚️ Audio Mixer GUI:**
     * Wbudowany mikser ALSA w Dashboardzie.
     * Precyzyjna regulacja poziomów (Mic Boost, ADC Gain, DAC Vol) suwakami – koniec z przesterowanym audio!
 
-6.  **🌍 Multi-Language (PL/EN):**
+7.  **🌍 Multi-Language (PL/EN):**
     * Pełne wsparcie dla języka **Polskiego** i **Angielskiego**.
     * Przełącznik języka interfejsu (flagi) oraz zmiana języka komunikatów głosowych SvxLink w Configu.
 
-7.  **🚀 Optymalizacja Systemu:**
+8.  **🚀 Optymalizacja Systemu:**
     * Logi systemowe zapisywane w pamięci RAM (`/dev/shm`) – oszczędza kartę SD.
     * Auto-Proxy dla EchoLink (rozwiązuje problemy z LTE/GSM).
 
@@ -78,27 +82,27 @@ Interfejs PrimeNode Dashboard został zaprojektowany z myślą o czytelności i 
 
 | **Dashboard (Live Monitor)** | **Nodes List** |
 | :---: | :---: |
-| ![Dashboard](images/dashboard.jpeg) | ![Nodes](images/nodes.jpeg) |
+| ![Dashboard](images/dashboard.jpg) | ![Nodes](images/nodes.jpg) |
 
 | **Nodes Map (Leaflet)** | **DTMF Editor (Drag & Drop)** |
 | :---: | :---: |
-| ![Nodes Map](images/node_mapa.jpeg) | ![DTMF](images/dtmf.jpeg) |
+| ![Nodes Map](images/nodes_mapa.jpg) | ![DTMF](images/dtmf.jpg) |
 
 | **Radio Config (SA818)** | **Audio Mixer** |
 | :---: | :---: |
-| ![Radio](images/radio.jpeg) | ![Audio](images/audio.jpeg) |
+| ![Radio](images/radio.jpg) | ![Audio](images/audio.jpg) |
 
 | **SvxLink Config & Roaming** | **WiFi Manager** |
 | :---: | :---: |
-| ![Config](images/config.jpeg) | ![WiFi](images/wifi.jpeg) |
+| ![Config](images/config.jpg) | ![WiFi](images/wifi.jpg) |
 
 | **Power Control** | **Live Logs** |
 | :---: | :---: |
-| ![Zasilanie](images/zasilanie.jpeg) | ![Log](images/log.jpeg) |
+| ![Zasilanie](images/zasilanie.jpg) | ![Log](images/log.jpg) |
 
 | **Web Terminal (SSH)** | **Help Center** |
 | :---: | :---: |
-| ![SSH](images/ssh.jpeg) | ![Help](images/help.jpeg) |
+| ![SSH](images/ssh.jpg) | ![Help](images/help.jpg) |
 
 ---
 
@@ -120,7 +124,13 @@ Interfejs PrimeNode Dashboard został zaprojektowany z myślą o czytelności i 
 1. Wpisz w przeglądarce adres: `http://primenode.local`
    *(Jeśli adres nie działa, sprawdź na routerze jaki adres IP pobrało urządzenie "primenode" lub "orangepizero").*
 2. Przejdź do zakładki **Konfiguracja (Config)**.
-3. Wpisz swój **Znak (Callsign)** oraz **Hasło** do sieci reflektorów.
+3. Wpisz swoje dane:
+    * **Znak (Callsign)**
+    * **Hasło** do sieci reflektorów
+    * **Adres Reflektora (Host)**
+    * **Port**
+    * **Adres API** (do listy nodów)
+    * Kliknij *Zapisz*.
 4. W zakładce **Radio** wpisz częstotliwość pracy swojego hotspota i kliknij *Zapisz*.
 5. Gotowe! Możesz rozmawiać.
 
@@ -144,7 +154,13 @@ Interfejs PrimeNode Dashboard został zaprojektowany z myślą o czytelności i 
 1. Open your browser and go to: `http://primenode.local`
    *(If not resolving, check your router's DHCP list for the device IP).*
 2. Go to the **Config** tab.
-3. Enter your **Callsign** and **Reflector Password**.
+3. Enter your details:
+    * **Callsign**
+    * **Reflector Password**
+    * **Reflector Host Address**
+    * **Port**
+    * **Node API URL**
+    * Click *Save*.
 4. Go to the **Radio** tab, enter your frequency, and click *Save*.
 5. Done! You are on air.
 
