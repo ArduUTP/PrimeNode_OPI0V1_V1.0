@@ -4,10 +4,6 @@
 Witamy w oficjalnym repozytorium systemu **PrimeNode**.
 Jest to zaawansowane, lekkie i nowoczesne oprogramowanie dla hotspotów radiowych, oparte na systemie **Armbian** oraz silniku **SvxLink**. Projekt został stworzony od podstaw z myślą o intuicyjnej obsłudze (Dashboard WWW), stabilności (System plików Read-Only/Logi w RAM) oraz elastyczności konfiguracji (Roaming Sieciowy).
 
-> **⚠️ PROJEKT EKSPERYMENTALNY / EXPERIMENTAL PROJECT**
-> Oprogramowanie jest dostarczane "takie jakie jest", na licencji GPLv3. Używasz go na własną odpowiedzialność.
-> Software is provided "AS IS". Use at your own risk.
-
 ---
 
 ## 📥 GŁÓWNY OBRAZ SYSTEMU / MAIN SYSTEM IMAGE
@@ -172,8 +168,9 @@ Interfejs PrimeNode Dashboard został zaprojektowany z myślą o czytelności i 
 
 ## 📜 Licencja i Autorzy / License & Credits
 
-Oprogramowanie Dashboardu oraz skrypty systemowe udostępniane są na licencji **GNU GPL v3.0**.
-Dashboard software and system scripts are provided under the **GNU GPL v3.0** license.
+> **⚠️ PROJEKT EKSPERYMENTALNY / EXPERIMENTAL PROJECT**
+> Oprogramowanie jest dostarczane "takie jakie jest", na licencji GPLv3. Używasz go na własną odpowiedzialność.
+> Software is provided "AS IS". Use at your own risk.
 
 * **Author & Developer:** Marcin "Skrętka" **SQ7UTP**
 * **Contact:** sq7utp@gmail.com
