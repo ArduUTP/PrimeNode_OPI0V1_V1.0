@@ -181,4 +181,4 @@ Dashboard software and system scripts are provided under the **GNU GPL v3.0** li
 
 *Projekt stworzony z pasji do krótkofalarstwa. 73!*
 
-![Downloads](https://img.shields.io/github/downloads/ArduUTP/PrimeNode_OPI0V1_V1.0/total?label=Pobrania&color=green)
+![Downloads](https://img.shields.io/github/downloads/ArduUTP/PrimeNode_OPI0V1_V1.0/total)
