@@ -176,5 +176,6 @@ Interfejs PrimeNode Dashboard został zaprojektowany z myślą o czytelności i 
 * **Contact:** sq7utp@gmail.com
 * **Core Software:** Tobias Blomberg (SM0SVX) - *SvxLink Creator*
 
-*Projekt stworzony z pasji do krótkofalarstwa. 73!*
+*PrimeNode to projekt rozwojowy, tworzony z myślą o prostocie i stabilności – bez zbędnych „wodotrysków”, za to z naciskiem na funkcjonalność. Jestem w pełni otwarty na Wasze uwagi, propozycje nowych funkcji oraz konstruktywną krytykę. Projekt ma charakter otwarty, więc jeśli masz pomysł na modyfikację lub usprawnienie kodu – śmiało modyfikuj lub daj znać! Budujmy to rozwiązanie wspólnie.
+Projekt stworzony z pasji do krótkofalarstwa. 73!*
 
