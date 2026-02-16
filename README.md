@@ -3,10 +3,7 @@
 
 Witamy w oficjalnym repozytorium systemu **PrimeNode**.
 Jest to zaawansowane, lekkie i nowoczesne oprogramowanie dla hotspotów radiowych, oparte na systemie **Armbian** oraz silniku **SvxLink**. Projekt został stworzony od podstaw z myślą o intuicyjnej obsłudze (Dashboard WWW), stabilności (System plików Read-Only/Logi w RAM) oraz elastyczności konfiguracji (Roaming Sieciowy).
-
-> **⚠️ PROJEKT EKSPERYMENTALNY / EXPERIMENTAL PROJECT**
-> Oprogramowanie jest dostarczane "takie jakie jest", na licencji GPLv3. Używasz go na własną odpowiedzialność.
-> Software is provided "AS IS". Use at your own risk.
+PrimeNode to projekt rozwojowy, tworzony z myślą o prostocie i stabilności – bez zbędnych „wodotrysków”, za to z naciskiem na funkcjonalność. Starałem się pozbyć potencjalnych błędów. Jestem w pełni otwarty na Wasze uwagi, propozycje nowych funkcji oraz konstruktywną krytykę. Projekt ma charakter otwarty, więc jeśli masz pomysł na modyfikację lub usprawnienie kodu – śmiało modyfikuj lub daj znać! Budujmy to rozwiązanie wspólnie.
 
 ---
 
@@ -74,6 +71,10 @@ System PrimeNode oferuje zestaw zaawansowanych funkcji ułatwiających codzienn�
     * Logi systemowe zapisywane w pamięci RAM (`/dev/shm`) – oszczędza kartę SD.
     * Auto-Proxy dla EchoLink (rozwiązuje problemy z LTE/GSM).
 
+9.  **📢 System Powiadomień (Info Bar):**
+    * Inteligentny pasek komunikatów na górze Dashboardu.
+    * System automatycznie pobiera ważne informacje od twórcy projektu (np. o dostępnych aktualizacjach, awariach sieci czy nowych funkcjach), dzięki czemu zawsze jesteś na bieżąco.
+
 ---
 
 ## 📸 Galeria / Screenshots
@@ -86,7 +87,7 @@ Interfejs PrimeNode Dashboard został zaprojektowany z myślą o czytelności i 
 
 | **Nodes Map (Leaflet)** | **DTMF Editor (Drag & Drop)** |
 | :---: | :---: |
-| ![Nodes Map](images/nodes_mapa.jpeg) | ![DTMF](images/dtmf.jpeg) |
+| ![Nodes Map](images/node_mapa.jpeg) | ![DTMF](images/dtmf.jpeg) |
 
 | **Radio Config (SA818)** | **Audio Mixer** |
 | :---: | :---: |
@@ -168,11 +169,13 @@ Interfejs PrimeNode Dashboard został zaprojektowany z myślą o czytelności i 
 
 ## 📜 Licencja i Autorzy / License & Credits
 
-Oprogramowanie Dashboardu oraz skrypty systemowe udostępniane są na licencji **GNU GPL v3.0**.
-Dashboard software and system scripts are provided under the **GNU GPL v3.0** license.
+> **⚠️ PROJEKT EKSPERYMENTALNY / EXPERIMENTAL PROJECT**
+> Oprogramowanie jest dostarczane "takie jakie jest", na licencji GPLv3. Używasz go na własną odpowiedzialność.
+> Software is provided "AS IS". Use at your own risk.
 
 * **Author & Developer:** Marcin "Skrętka" **SQ7UTP**
 * **Contact:** sq7utp@gmail.com
 * **Core Software:** Tobias Blomberg (SM0SVX) - *SvxLink Creator*
 
 *Projekt stworzony z pasji do krótkofalarstwa. 73!*
+
