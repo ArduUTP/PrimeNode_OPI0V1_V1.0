@@ -75,6 +75,19 @@ System PrimeNode oferuje zestaw zaawansowanych funkcji ułatwiających codzienn�
     * Inteligentny pasek komunikatów na górze Dashboardu.
     * System automatycznie pobiera ważne informacje od twórcy projektu (np. o dostępnych aktualizacjach, awariach sieci czy nowych funkcjach), dzięki czemu zawsze jesteś na bieżąco.
 
+10. **📺 PrimeNode Monitor Support:**
+    * Wbudowana obsługa zewnętrznych wyświetlaczy OLED dla dedykowanego oprogramowania monitorującego.
+
+---
+
+## 📺 PrimeNode Monitor (OLED)
+
+System PrimeNode posiada wbudowaną integrację z autorskim oprogramowaniem monitorującym. Obsługuje ono wyświetlacze **OLED 1.3 cala oraz 2.42 cala**, prezentując kluczowe parametry pracy węzła w czytelnej formie.
+
+![PrimeNode Monitor Animation](images/monitor_demo.gif)
+
+👉 **Oprogramowanie oraz instrukcja podłączenia wyświetlacza znajdują się w osobnym repozytorium: [PrimeNode-Monitor](link_do_twojego_repo_z_softem_monitora)**
+
 ---
 
 ## 📸 Galeria / Screenshots
@@ -178,4 +191,3 @@ Interfejs PrimeNode Dashboard został zaprojektowany z myślą o czytelności i 
 * **Core Software:** Tobias Blomberg (SM0SVX) - *SvxLink Creator*
 
 *Projekt stworzony z pasji do krótkofalarstwa. 73!*
-
