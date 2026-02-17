@@ -86,7 +86,7 @@ System PrimeNode posiada wbudowaną integrację z autorskim oprogramowaniem moni
 
 ![PrimeNode Monitor Animation](images/monitor_demo.gif)
 
-👉 **Oprogramowanie oraz instrukcja podłączenia wyświetlacza znajdują się w osobnym repozytorium: [PrimeNode-Monitor](link_do_twojego_repo_z_softem_monitora)**
+👉 **Oprogramowanie oraz instrukcja podłączenia wyświetlacza znajdują się w osobnym repozytorium: [PrimeNode-Monitor]([)](https://github.com/ArduUTP/PrimeNode_Monitor_OLED_1.3_2.42_BY_SQ7UTP)**
 
 ---
 
