@@ -1,7 +1,7 @@
 # PrimeNode - OPI0 V1 Hotspot System
 ### Powered by SvxLink | Developed by SQ7UTP
 
-Witamy w oficjalnym repozytorium systemu **PrimeNode**.
+Witamy w oficjalnym repozytorium systemu **PrimeNode**. 
 Jest to zaawansowane, lekkie i nowoczesne oprogramowanie dla hotspotów radiowych, oparte na systemie **Armbian** oraz silniku **SvxLink**. Projekt został stworzony od podstaw z myślą o intuicyjnej obsłudze (Dashboard WWW), stabilności (System plików Read-Only/Logi w RAM) oraz elastyczności konfiguracji (Roaming Sieciowy).
 PrimeNode to projekt rozwojowy, tworzony z myślą o prostocie i stabilności – bez zbędnych „wodotrysków”, za to z naciskiem na funkcjonalność. Starałem się pozbyć potencjalnych błędów. Jestem w pełni otwarty na Wasze uwagi, propozycje nowych funkcji oraz konstruktywną krytykę. Projekt ma charakter otwarty, więc jeśli masz pomysł na modyfikację lub usprawnienie kodu – śmiało modyfikuj lub daj znać! Budujmy to rozwiązanie wspólnie.
 
@@ -36,46 +36,51 @@ Gotowy do wgrania obraz systemu (`.img`) znajduje się w sekcji **Releases** po 
 
 ## ✨ Główne Funkcje / Key Features
 
-System PrimeNode oferuje zestaw zaawansowanych funkcji ułatwiających codzienną pracę z hotspotem:
+System PrimeNode oferuje zestaw zaawansowanych funkcji ułatwiających codzienną pracę z hotspotem (Zaktualizowano w **V1.3**!):
 
-1.  **🌐 Network Roaming (Baza Sieci):**
+1.  **🎛️ Smart Config (NOWOŚĆ!):**
+    * Koniec z ręcznym wpisywaniem numerów grup TG w konfiguracji!
+    * Kliknij pole *Startowe TG* lub *Monitorowane TG*, by otworzyć dotykowy panel wyboru.
+    * System automatycznie zaciąga Twoje ulubione grupy prosto z Twoich własnych zakładek DTMF.
+
+2.  **⚡ Szybkie Przełączanie (Quick-Dial) i Wizualizacja TX (NOWOŚĆ!):**
+    * Gdy ktoś nadaje, jego kafelek na liście i znacznik na mapie dynamicznie pulsują na czerwono.
+    * Kliknij pulsujący kafelek w zakładce Nodes, aby jednym przyciskiem natychmiast przełączyć swoje radio na grupę (TG), na której toczy się rozmowa.
+
+3.  **📱 Inteligentne Ikony i Dane Radiowe (NOWOŚĆ!):**
+    * Lista węzłów automatycznie rozpoznaje oprogramowanie stacji i przydziela ikonę: Radio (📻), Aplikacja mobilna (📱) lub PC (💻).
+    * Najechanie na węzeł zdradza dokładną częstotliwość (QRG) oraz ton CTCSS korespondenta.
+
+4.  **🌐 Network Roaming (Baza Sieci):**
     * Wbudowany menedżer sieci w zakładce *Konfiguracja*.
     * Możliwość zdefiniowania wielu serwerów (Reflektorów) z różnymi loginami/hasłami.
     * Szybkie przełączanie sieci kodami DTMF z radia: `555` + `ID` + `#`.
 
-2.  **🔄 System Aktualizacji (OTA Update):**
+5.  **🔄 System Aktualizacji (OTA Update):**
     * Wbudowany mechanizm aktualizacji Dashboardu i skryptów systemowych.
     * Pobieranie poprawek i nowości jednym kliknięciem w zakładce *Zasilanie* (bez konieczności ponownego wgrywania obrazu na kartę).
 
-3.  **📱 Inteligentny DTMF (Drag & Drop):**
+6.  **📱 Inteligentny DTMF (Drag & Drop):**
     * Nowoczesny edytor przycisków z obsługą **przeciągania kafelków** (również na telefonie).
     * Tworzenie własnych zakładek i makr bez edycji plików tekstowych.
 
-4.  **💻 Web Terminal (SSH):**
+7.  **💻 Web Terminal (SSH):**
     * Pełny dostęp do konsoli systemowej bezpośrednio z przeglądarki.
     * Nie potrzebujesz Putty/Terminala – zarządzaj systemem z dowolnego urządzenia.
 
-5.  **📡 Live Monitor & Smart Info:**
-    * Podgląd aktywności w czasie rzeczywistym.
-    * Automatyczne rozpoznawanie stacji (Imię i Miasto operatora) pobierane z bazy węzłów.
-
-6.  **🎚️ Audio Mixer GUI:**
+8.  **🎚️ Audio Mixer GUI:**
     * Wbudowany mikser ALSA w Dashboardzie.
     * Precyzyjna regulacja poziomów (Mic Boost, ADC Gain, DAC Vol) suwakami – koniec z przesterowanym audio!
 
-7.  **🌍 Multi-Language (PL/EN):**
+9.  **🌍 Multi-Language (PL/EN):**
     * Pełne wsparcie dla języka **Polskiego** i **Angielskiego**.
     * Przełącznik języka interfejsu (flagi) oraz zmiana języka komunikatów głosowych SvxLink w Configu.
 
-8.  **🚀 Optymalizacja Systemu:**
+10. **🚀 Optymalizacja Systemu:**
     * Logi systemowe zapisywane w pamięci RAM (`/dev/shm`) – oszczędza kartę SD.
     * Auto-Proxy dla EchoLink (rozwiązuje problemy z LTE/GSM).
 
-9.  **📢 System Powiadomień (Info Bar):**
-    * Inteligentny pasek komunikatów na górze Dashboardu.
-    * System automatycznie pobiera ważne informacje od twórcy projektu (np. o dostępnych aktualizacjach, awariach sieci czy nowych funkcjach), dzięki czemu zawsze jesteś na bieżąco.
-
-10. **📺 PrimeNode Monitor Support:**
+11. **📺 PrimeNode Monitor Support:**
     * Wbudowana obsługa zewnętrznych wyświetlaczy OLED dla dedykowanego oprogramowania monitorującego.
 
 ---
@@ -90,9 +95,15 @@ System PrimeNode posiada wbudowaną integrację z autorskim oprogramowaniem moni
 
 ---
 
-## 📸 Galeria / Screenshots
+## 📸 Galeria / Screenshots (Nowości V1.3)
 
-Interfejs PrimeNode Dashboard został zaprojektowany z myślą o czytelności i funkcjonalności (Dark Mode).
+| **Smart Config (Wybór TG)** | **Quick-Dial (Szybkie Przełączanie)** |
+| :---: | :---: |
+| ![Smart Config](images/new_config.jpg) | ![Quick Dial](images/new_node_tg.jpg) |
+
+| **Inteligentne Ikony & Dane TX** | **Ekran Powitalny (Changelog)** |
+| :---: | :---: |
+| ![Ikony](images/new_node_icons.jpg) | ![Changelog](images/changelog.jpg) |
 
 | **Dashboard (Live Monitor)** | **Nodes List** |
 | :---: | :---: |
