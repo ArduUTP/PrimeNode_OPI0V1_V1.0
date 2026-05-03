@@ -192,7 +192,7 @@ System PrimeNode posiada wbudowaną integrację z autorskim oprogramowaniem moni
 ---
 
 
-> **⚠️ NOTA LICENCYJNA ORAZ ZNAKI TOWAROWE / LICENSE & TRADEMARK NOTICE**
+> **⚠️ NOTA LICENCYJNA ORAZ ZNAKI TOWAROWE / LICENSE & TRADEMARK NOTICE** <br>
 > Oprogramowanie z otwartym kodem źródłowym. Udostępniane i rozwijane pod autorską marką **PrimeNode** na warunkach licencji **GPLv3**. Używasz go na własną odpowiedzialność (Software is provided "AS IS"). 
 >
 > *Przy modyfikacji i redystrybucji kodu wymagane jest bezwzględne zachowanie informacji o oryginalnym autorze, zachowanie logotypów PrimeNode oraz oryginalnej nazwy systemu w nagłówkach i stopkach interfejsu zgodnie z warunkami licencji otwartego oprogramowania.*
