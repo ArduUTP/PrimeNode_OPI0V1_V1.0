@@ -191,14 +191,14 @@ System PrimeNode posiada wbudowaną integrację z autorskim oprogramowaniem moni
 
 ---
 
-## 📜 Licencja i Autorzy / License & Credits
 
-> **⚠️ PROJEKT EKSPERYMENTALNY / EXPERIMENTAL PROJECT**
-> Oprogramowanie jest dostarczane "takie jakie jest", na licencji GPLv3. Używasz go na własną odpowiedzialność.
-> Software is provided "AS IS". Use at your own risk.
+> **⚠️ NOTA LICENCYJNA ORAZ ZNAKI TOWAROWE / LICENSE & TRADEMARK NOTICE**
+> Oprogramowanie z otwartym kodem źródłowym. Udostępniane i rozwijane pod autorską marką **PrimeNode** na warunkach licencji **GPLv3**. Używasz go na własną odpowiedzialność (Software is provided "AS IS"). 
+>
+> *Przy modyfikacji i redystrybucji kodu wymagane jest bezwzględne zachowanie informacji o oryginalnym autorze, zachowanie logotypów PrimeNode oraz oryginalnej nazwy systemu w nagłówkach i stopkach interfejsu zgodnie z warunkami licencji otwartego oprogramowania.*
 
-* **Author & Developer:** Marcin "Skrętka" **SQ7UTP**
-* **Contact:** sq7utp@gmail.com
-* **Core Software:** Tobias Blomberg (SM0SVX) - *SvxLink Creator*
+* **Twórca Systemu & Dashboardu (Author):** Marcin "Skrętka" **SQ7UTP**
+* **Kontakt / Contact:** sq7utp@gmail.com
+* **Core Software (Silnik radiowy):** Tobias Blomberg (SM0SVX) - *SvxLink Creator*
 
 *Projekt stworzony z pasji do krótkofalarstwa. 73!*
